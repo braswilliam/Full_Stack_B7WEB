@@ -1,0 +1,1 @@
+//DOM = Documnent Object Model
