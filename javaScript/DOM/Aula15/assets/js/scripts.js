@@ -1,18 +1,20 @@
 function verde() {
-    remover();
-    document.querySelector('#exemplo').classList.add('verde'); 
-}
-function vermelho() {
-    remover();
-    document.querySelector('#exemplo').classList.add('vermelho');
-}
-function azul() {
-    remover();
-    document.querySelector('#exemplo').classList.add('azul');
+    limparClasses();
+    document.querySelector("#titulo").classList.add('verde');   
 }
 
-function remover() {
-    document.querySelector('#exemplo').classList.remove('verde');
-    document.querySelector('#exemplo').classList.remove('vermelho');
-    document.querySelector('#exemplo').classList.remove('azul');
+function vermelho() {
+    limparClasses();
+    document.querySelector("#titulo").classList.add('vermelho');
+}
+
+function azul() {
+    limparClasses();
+    document.querySelector("#titulo").classList.add('azul');
+}
+
+function limparClasses() {
+    document.querySelector("#titulo").classList.remove('verde');
+    document.querySelector("#titulo").classList.remove('vermelho');
+    document.querySelector("#titulo").classList.remove('azul');
 }
