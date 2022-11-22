@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+#exemplo {
+    width:200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: cadetblue;
+}
+
+.verde {
+    background-color: #00FF00;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+.vermelho{
+   background-color: #FF0000; 
+   color: aliceblue;
+   font-weight: 900;
+}
+
+.azul {
+    background-color: #0000FF;
+    color: aliceblue;
+    font-weight: 900;
+}
